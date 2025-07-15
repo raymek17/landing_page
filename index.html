@@ -3,64 +3,104 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Stimulus Check Eligibility</title>
+    <title>Stimulus Relief Checker</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="description" content="See if you qualify for up to $1,500 in government stimulus relief. No SSN or credit check required.">
   </head>
-  <body class="bg-gray-100 text-gray-800 font-sans">
+  <body class="bg-white text-gray-800 font-sans">
 
-    <div class="bg-yellow-400 text-black py-2 text-center font-semibold sticky top-0 z-50">
-      ⏳ Only a few spots left for this week’s eligibility check!
+    <!-- Sticky Banner -->
+    <div class="bg-yellow-300 text-center py-2 font-medium text-sm sticky top-0 z-50 shadow">
+      🚨 Only 3 spots left today to check stimulus eligibility – act now!
     </div>
 
-    <section class="bg-gradient-to-br from-blue-600 to-blue-700 text-white py-20 px-4">
-      <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-        <div class="text-center md:text-left">
-          <h1 class="text-4xl md:text-5xl font-bold mb-6">
-            Check if You Qualify for <span class="text-yellow-300">$1,500</span> in Stimulus Relief
-          </h1>
-          <p class="text-xl mb-6 text-blue-100">
-            Takes 60 seconds. No credit check. 100% free.
-          </p>
-          <a href="#eligibility-form" class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 text-lg rounded-lg shadow-lg transform hover:scale-105 transition-all duration-200">
-            Start Eligibility Check →
-          </a>
-          <p class="mt-4 text-sm text-blue-200">
-            Join thousands who have already checked their eligibility
-          </p>
-        </div>
-        <div class="hidden md:block">
-          <img src="https://via.placeholder.com/500x300?text=Relief+Image" alt="Relief Help" class="rounded-lg shadow-2xl">
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-tr from-blue-700 to-blue-600 text-white px-6 py-20">
+      <div class="max-w-5xl mx-auto text-center">
+        <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6">
+          Do You Qualify for <span class="text-yellow-300">$1,500</span> in Stimulus Relief?
+        </h1>
+        <p class="text-lg md:text-2xl mb-8 text-blue-100">
+          Takes less than 60 seconds. No credit check. No SSN. 100% free.
+        </p>
+        <a href="#check" class="inline-block bg-green-500 hover:bg-green-600 text-white text-lg font-semibold px-8 py-4 rounded-lg shadow-lg transition-all duration-200">
+          Start Eligibility Check →
+        </a>
+        <p class="mt-4 text-sm text-blue-200">
+          Trusted by over 40,000 people across the U.S.
+        </p>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="py-16 bg-gray-50 px-4" id="check">
+      <div class="max-w-5xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-8">How It Works</h2>
+        <div class="grid md:grid-cols-3 gap-10">
+          <div>
+            <div class="text-4xl mb-4">📝</div>
+            <h3 class="font-semibold text-xl mb-2">Step 1: Quick Form</h3>
+            <p>Answer a few basic questions – no SSN required.</p>
+          </div>
+          <div>
+            <div class="text-4xl mb-4">📊</div>
+            <h3 class="font-semibold text-xl mb-2">Step 2: Instant Check</h3>
+            <p>Find out immediately if you qualify for relief benefits.</p>
+          </div>
+          <div>
+            <div class="text-4xl mb-4">💸</div>
+            <h3 class="font-semibold text-xl mb-2">Step 3: Receive Funds</h3>
+            <p>Get matched with your relief options & secure your funds.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="py-16 px-4 bg-white">
-      <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 text-center">
-        <div>
-          <div class="w-16 h-16 mx-auto bg-green-100 text-green-600 flex items-center justify-center rounded-full mb-4 text-2xl">⚡</div>
-          <h3 class="text-xl font-semibold mb-2">Instant pre-qualification</h3>
-          <p>Get results in under 60 seconds</p>
-        </div>
-        <div>
-          <div class="w-16 h-16 mx-auto bg-green-100 text-green-600 flex items-center justify-center rounded-full mb-4 text-2xl">🔒</div>
-          <h3 class="text-xl font-semibold mb-2">No credit pull</h3>
-          <p>Safe and private process</p>
-        </div>
-        <div>
-          <div class="w-16 h-16 mx-auto bg-green-100 text-green-600 flex items-center justify-center rounded-full mb-4 text-2xl">✅</div>
-          <h3 class="text-xl font-semibold mb-2">Secure & trusted</h3>
-          <p>Your data is protected with bank-level security</p>
+    <!-- Trust Section -->
+    <section class="bg-white py-16 px-4 text-center">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-2xl font-bold mb-6">Why People Trust Us</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="bg-gray-100 p-6 rounded-lg shadow-sm">
+            <h4 class="font-semibold text-lg mb-2">🔐 Safe & Secure</h4>
+            <p>Bank-level security. We never ask for your SSN.</p>
+          </div>
+          <div class="bg-gray-100 p-6 rounded-lg shadow-sm">
+            <h4 class="font-semibold text-lg mb-2">⚡ Super Fast</h4>
+            <p>Less than 60 seconds to see if you're eligible.</p>
+          </div>
+          <div class="bg-gray-100 p-6 rounded-lg shadow-sm">
+            <h4 class="font-semibold text-lg mb-2">✅ 100% Free</h4>
+            <p>No hidden fees, no gimmicks. Just answers.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="eligibility-form" class="py-16 px-4 bg-gray-50 text-center">
-      <h2 class="text-3xl font-bold mb-6">Eligibility Form Coming Soon</h2>
-      <p>This is where your CPA or affiliate form would go.</p>
+    <!-- FAQ Section -->
+    <section class="bg-gray-50 py-16 px-4" id="faq">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="text-2xl font-bold text-center mb-10">Frequently Asked Questions</h2>
+        <div class="space-y-6">
+          <div>
+            <h3 class="font-semibold text-lg">❓ Do I need to give my SSN?</h3>
+            <p>Nope! We never ask for sensitive information.</p>
+          </div>
+          <div>
+            <h3 class="font-semibold text-lg">❓ How fast can I know if I qualify?</h3>
+            <p>Usually under 60 seconds. It’s that fast.</p>
+          </div>
+          <div>
+            <h3 class="font-semibold text-lg">❓ What if I don’t qualify?</h3>
+            <p>You’ll still see resources and programs available to you.</p>
+          </div>
+        </div>
+      </div>
     </section>
 
+    <!-- Footer -->
     <footer class="bg-blue-900 text-white py-6 text-center text-sm">
-      &copy; 2025 Stimulus Check Finder. All rights reserved.
+      &copy; 2025 Stimulus Check Finder. No government affiliation. Privacy respected.
     </footer>
 
   </body>
